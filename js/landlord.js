@@ -1,0 +1,1 @@
+"use strict";document.addEventListener("DOMContentLoaded",function(){bindModal(".js-pupup-btn",!0)});

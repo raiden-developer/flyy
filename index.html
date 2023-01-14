@@ -1,0 +1,1400 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flyyy</title>
+
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/simplebar.min.css">
+	<link rel="stylesheet" href="css/franchise.min.css">
+
+	<noscript>
+		<style>
+			.simplebar-content-wrapper {
+				overflow: auto;
+			}
+		</style>
+	</noscript>
+</head>
+<body class="franchise">
+
+		
+
+<nav class="menu ">
+	<button class="menu__btn">
+		<span class="vissually-hidden">Открыть меню</span>
+		<span class="menu__btn-left"></span>
+		<span class="menu__btn-center"></span>
+		<span class="menu__btn-right"></span>
+	</button>
+
+	<div class="menu__inner" data-simplebar>
+		<button class="menu__close">
+			<span class="vissually-hidden">Закрыть меню</span>
+			<svg class="s-close-icon">
+				<use xlink:href="img/svg/sprite1.svg#close-icon" />
+			</svg>
+		</button>
+		<a class="logo menu__logo" href="#">
+			<img class="logo__image" src="img/logo.svg" alt="Логотип">
+		</a>
+		<ul class="menu__list">
+			<li class="menu__item">
+				<div class="menu__category">Гостю</div>
+				<ul class="menu__links">
+					<li class="menu__links-item">
+						<a class="menu__link" href="#">Меню</a>
+					</li>
+					<li class="menu__links-item">
+						<a class="menu__link" href="#">Адреса кофеен</a>
+					</li>
+					<li class="menu__links-item">
+						<a class="menu__link" href="#">Новости/акции</a>
+					</li>
+				</ul>
+			</li>
+
+			<li class="menu__item">
+				<div class="menu__category">Бизнесу</div>
+				<ul class="menu__links">
+					<li class="menu__links-item">
+						<a class="menu__link" href="#">Франшиза</a>
+					</li>
+					<li class="menu__links-item">
+						<a class="menu__link" href="#">Команда</a>
+					</li>
+					<li class="menu__links-item">
+						<a class="menu__link" href="#">Форматы кофеен</a>
+					</li>
+					<li class="menu__links-item">
+						<a class="menu__link" href="#">План развития</a>
+					</li>
+					<li class="menu__links-item">
+						<a class="menu__link" href="#">Арендодателям</a>
+					</li>
+					<li class="menu__links-item">
+						<a class="menu__link" href="#">Для сми</a>
+					</li>
+					<li class="menu__links-item">
+						<a class="menu__link" href="#"><b>Поиск помещения</b></a>
+					</li>
+					<li class="menu__links-item">
+						<a class="menu__link" href="#">БЛОГ</a>
+					</li>
+				</ul>
+			</li>
+
+			<li class="menu__item">
+				<div class="menu__category">Контакты</div>
+				<ul class="menu__links">
+					<li class="menu__links-item">
+						<a class="menu__link" href="tel:+88007079113">8 (800) 707-91-13</a>
+					</li>
+					<li class="menu__social">
+						<a class="menu__social-link" href="#">
+							<svg class="tm-i-instagram " width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<circle cx="27.5" cy="27.5" r="27" stroke="inherit" />
+								<path d="M32.125 17H23.875C20.0786 17 17 20.0786 17 23.875V32.125C17 35.9214 20.0786 39 23.875 39H32.125C35.9214 39 39 35.9214 39 32.125V23.875C39 20.0786 35.9214 17 32.125 17ZM36.9375 32.125C36.9375 34.7787 34.7787 36.9375 32.125 36.9375H23.875C21.2213 36.9375 19.0625 34.7787 19.0625 32.125V23.875C19.0625 21.2213 21.2213 19.0625 23.875 19.0625H32.125C34.7787 19.0625 36.9375 21.2213 36.9375 23.875V32.125Z" fill="inherit" />
+								<path d="M28 22.5C24.9626 22.5 22.5 24.9626 22.5 28C22.5 31.0374 24.9626 33.5 28 33.5C31.0374 33.5 33.5 31.0374 33.5 28C33.5 24.9626 31.0374 22.5 28 22.5ZM28 31.4375C26.1052 31.4375 24.5625 29.8948 24.5625 28C24.5625 26.1039 26.1052 24.5625 28 24.5625C29.8948 24.5625 31.4375 26.1039 31.4375 28C31.4375 29.8948 29.8948 31.4375 28 31.4375Z" fill="inherit" />
+								<path d="M33.9131 22.8212C34.3178 22.8212 34.6459 22.4931 34.6459 22.0883C34.6459 21.6836 34.3178 21.3555 33.9131 21.3555C33.5083 21.3555 33.1802 21.6836 33.1802 22.0883C33.1802 22.4931 33.5083 22.8212 33.9131 22.8212Z" fill="inherit" />
+							</svg>
+						</a>
+					</li>
+					<li class="menu__social">
+						<a class="menu__social-link" href="#">
+							<svg class="tm-i-vk " width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<circle cx="27.5" cy="27.5" r="27" stroke="inherit" />
+								<path d="M38.8039 32.1962C38.7448 32.0972 38.379 31.3024 36.6189 29.6688C34.7762 27.9581 35.0238 28.2359 37.2432 25.2781C38.5949 23.4767 39.1353 22.3766 38.9662 21.9063C38.8053 21.458 37.8111 21.5763 37.8111 21.5763L34.5053 21.5955C34.5053 21.5955 34.2606 21.5625 34.0777 21.6712C33.9003 21.7784 33.7862 22.0259 33.7862 22.0259C33.7862 22.0259 33.2623 23.4203 32.5637 24.6056C31.091 27.1069 30.501 27.2389 30.2604 27.0836C29.7007 26.7219 29.841 25.6287 29.841 24.8531C29.841 22.4288 30.2082 21.4181 29.1246 21.1569C28.7643 21.0702 28.5003 21.0125 27.5803 21.0029C26.4005 20.9905 25.4008 21.007 24.8356 21.2834C24.4589 21.4677 24.1687 21.8788 24.3461 21.9022C24.5647 21.9311 25.0598 22.0356 25.3224 22.3931C25.6621 22.8538 25.6497 23.8906 25.6497 23.8906C25.6497 23.8906 25.845 26.7439 25.1945 27.0987C24.7476 27.3421 24.1357 26.8457 22.8225 24.5754C22.1501 23.4134 21.6413 22.1277 21.6413 22.1277C21.6413 22.1277 21.5436 21.8884 21.369 21.7605C21.1572 21.6052 20.8602 21.5557 20.8602 21.5557L17.7167 21.5749C17.7167 21.5749 17.2451 21.5887 17.0718 21.7936C16.9178 21.9764 17.0594 22.3532 17.0594 22.3532C17.0594 22.3532 19.5209 28.1108 22.3068 31.0136C24.8631 33.6744 27.7646 33.4998 27.7646 33.4998H29.0792C29.0792 33.4998 29.4766 33.4558 29.6787 33.2371C29.8658 33.0364 29.8589 32.6596 29.8589 32.6596C29.8589 32.6596 29.8327 30.8953 30.6523 30.6354C31.4595 30.3797 32.4963 32.3406 33.595 33.0955C34.4256 33.6662 35.0568 33.541 35.0568 33.541L37.9953 33.4998C37.9953 33.4998 39.5327 33.4049 38.8039 32.1962Z" fill="inherit" />
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+	<main class="main">
+
+		<section class="hero" style="background-color: #51e2f2;">
+	<div class="container">
+		<div class="hero__inner">
+			<div class="hero__content">
+				<div class="hero__heading tk-anim tk-a-rotate tk-no-hide">
+					<h1 class="hero__title">Франшиза Федеральной сети креативных кофеен</h1>
+					<div class="title hero__subtitle">
+						СИЛЬНЫЙ ПРОДУКТ <br> ФИКСИРОВАННАЯ <br> ЦЕНА
+						<svg class="s-lips">
+							<use xlink:href="img/svg/sprite1.svg#lips" />
+						</svg>
+					</div>
+				</div>
+				<div class="hero__image tk-anim tk-a-translate-b tk-no-hide">
+					<img class="hero__image-left" src="img/hero/left.png" alt="">
+					<img class="hero__image-right" src="img/hero/right.png" alt="">
+				</div>
+
+				<button class="btn hero__btn js-pupup-btn" data-modal-target="#modal1">
+					<span class="btn__bg">
+						<span class="btn__wave"></span>
+					</span>
+					<span class="btn__text">Оставить заявку</span>
+				</button>
+			</div>
+			<div class="hero__decor">
+				<div class="circle hero__circle">
+					<img class="circle__image" src="img/hero/circle.svg" alt="">
+					<img class="circle__center" src="img/hero/circle-center.svg" alt="">
+				</div>
+				<p class="hero__describe">
+					Кофейный дискаунтер <br> с незабываемой <br> атмосферой
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+		<section class="success" style="background-color: #343779;">
+	<div class="container">
+		<h2 class="title-2 success__title">
+			Успех ПАРТНЕРОВ <br>
+			НАШ УСПЕХ!
+		</h2>
+
+		<div class="success__inner">
+			<div class="success__item" style="--border-color: #51E1F1;">
+				<div class="success__box">
+					<div class="success__subtitle">
+						В чем суть <br>
+						партнерства
+					</div>
+					<p class="success__text">
+						Зарабатываем <br> не на вступительном <br>
+						взносе, а на успехе <br> партнеров
+					</p>
+				</div>
+			</div>
+			<div class="success__item" style="--border-color: #F190AF;">
+				<div class="success__box">
+					<div class="success__subtitle">
+						Гарантия <br> стабильного <br> потока гостей
+					</div>
+					<p class="success__text">
+						Фиксированная цена и высокое качество продукции всегда обеспечивает стабильный потока гостей
+					</p>
+				</div>
+			</div>
+			<div class="success__item" style="--border-color: #FBB03B;">
+				<div class="success__box">
+					<div class="success__subtitle">
+						Постоянный <br>
+						доход
+					</div>
+					<p class="success__text">
+						150 000 - 370 000 руб./мес. на такой доход можно рассчитывать запустив кофейню FlyCoffee
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+		
+		
+		
+		<section class="free-room" style="background-color: #343779;">
+	<div class="container">
+		<h2 class="title-2 free-room__title">
+			БЕСПЛАТНО подбираем <br> помещение для кофейни
+		</h2>
+
+		<div class="free-room__inner">
+			<div class="free-room__box">
+				<ul class="free-room__list">
+					<li class="free-room__item tk-anim tk-a-rotate">
+						Качественно подобранное помещение является залогом успешного бизнеса
+					</li>
+					<li class="free-room__item tk-anim tk-a-rotate">
+						Кофейни FlyCoffee находятся только на высоком трафике
+					</li>
+					<li class="free-room__item tk-anim tk-a-rotate">
+						Каждую долкацию утверждает лично директор по развитию
+					</li>
+				</ul>
+
+				<button class="btn free-room__btn js-pupup-btn " data-modal-target="#modal1">
+					<span class="btn__bg">
+						<span class="btn__wave"></span>
+					</span>
+					<span class="btn__text">
+						
+						Подобрать помещение
+						
+					</span>
+				</button>
+			</div>
+
+			<img class="free-room__image tk-anim tk-a-scale tk-no-hide" src="img/free_room.png" alt="">
+		</div>
+	</div>
+</section>
+
+		<section class="conditions">
+	<div class="container">
+		<h2 class="title-2 conditions__title">
+			<span class="tk-anim tk-a-translate-l tk-no-hide">ЧЕСТНЫЕ УСЛОВИЯ ДЛЯ ПАРТНЕРОВ</span>
+		</h2>
+
+		<ul class="conditions__numbers">
+			<li class="conditions__item tk-anim tk-a-rotate">
+				<div class="conditions__subtitle">
+					Инвестиции от
+				</div>
+				<div class="conditions__value conditions__value--fz-large conditions__value--m-none" style="--text: '900 000'">
+					900 000 <span class="conditions__currency">₽</span>
+				</div>
+
+				<div class="conditions__value conditions__value--fz-large conditions__value--m-active" style="--text: '900'">
+					900 <span class="conditions__currency">Т.Р</span>
+				</div>
+			</li>
+			<li class="conditions__item tk-anim tk-a-rotate">
+				<div class="conditions__subtitle">
+					Окупаемость от
+				</div>
+				<div class="conditions__value conditions__value--fz-large" style="--text: '6'">
+					6 <span class="conditions__value-month" style="--text: 'мес'">мес</span>
+				</div>
+			</li>
+			<li class="conditions__item conditions__item--profit tk-anim tk-a-rotate">
+				<div class="conditions__subtitle">
+					Расчетная прибыль в месяц
+				</div>
+				<div class="conditions__value conditions__value--fz-middle conditions__value--m-none" style="--text: '150 000 - 350 000'">
+					150 000 - 350 000
+				</div>
+				<div class="conditions__value conditions__value--fz-middle conditions__value--m-active" style="--text: '150 - 350'">
+					150 - 350<span class="conditions__currency conditions__currency--little">Т.Р.</span>
+				</div>
+			</li>
+			<li class="conditions__item conditions__item--royalty tk-anim tk-a-rotate">
+				<div class="conditions__heading">
+					Роялти
+				</div>
+				<div class="conditions__value conditions__value--fz-little" style="--text: '0'">
+					0
+				</div>
+				<div class="conditions__signature">С 4го месяца 3%</div>
+			</li>
+			<li class="conditions__item conditions__item--contribution tk-anim tk-a-rotate">
+				<div class="conditions__heading">
+					ПАУШАЛЬНЫЙ ВЗНОС
+				</div>
+				<ul class="conditions__tariffs">
+					<li class="conditions__tariff">
+						<div class="conditions__subtitle conditions__subtitle--small">
+							Базовый
+						</div>
+						<div class="conditions__value conditions__value--fz-little conditions__value--m-none" style="--text: '99'">
+							99<span class="conditions__currency conditions__currency--little">Т.Р.</span>
+						</div>
+						<div class="conditions__value conditions__value--fz-little conditions__value--m-active" style="--text: '190 000'">
+							190 000<span class="conditions__currency conditions__currency--little">₽</span>
+						</div>
+					</li>
+					<li class="conditions__tariff">
+						<div class="conditions__subtitle conditions__subtitle--small">
+							Стандарт
+						</div>
+						<div class="conditions__value conditions__value--fz-little conditions__value--m-none" style="--text: '175'">
+							175<span class="conditions__currency conditions__currency--little">Т.Р.</span>
+						</div>
+						<div class="conditions__value conditions__value--fz-little conditions__value--m-active" style="--text: '250 000'">
+							250 000<span class="conditions__currency conditions__currency--little">₽</span>
+						</div>
+					</li>
+					<li class="conditions__tariff">
+						<div class="conditions__subtitle conditions__subtitle--small">
+							Под ключ
+						</div>
+						<div class="conditions__value conditions__value--fz-little conditions__value--m-none" style="--text: '350'">
+							350<span class="conditions__currency conditions__currency--little">Т.Р.</span>
+						</div>
+
+						<div class="conditions__value conditions__value--fz-little conditions__value--m-active" style="--text: '350 000'">
+							350 000<span class="conditions__currency conditions__currency--little">₽</span>
+						</div>
+					</li>
+				</ul>
+				<div class="conditions__signature conditions__signature--m-none">Действует до 01.06.2020 Количество договоров ограничено!</div>
+			</li>
+		</ul>
+
+		<button class="btn btn--transparent conditions__btn js-pupup-btn" data-modal-target="#modal1">Узнать условия</button>
+	</div>
+</section>
+
+		<section class="franchise-start" style="background-color: #343779;">
+	<div class="container">
+		<div class="franchise-start__row">
+			<h2 class="title franchise-start__title">ЗАПУСК <br> КОФЕЙНИ</h2>
+			<div class="franchise-start__term">
+				<span class="franchise-start__time">10-21</span>
+				<span class="franchise-start__category">день</span>
+				<p class="franchise-start__text">Уходит на <br> запуск кофейни</p>
+			</div>
+		</div>
+
+		<ul class="franchise-start__stages js-accordion">
+			<li class="franchise-start__item tk-anim tk-a-translate-b tk-no-hide">
+				<div class="title-2 franchise-start__subtitle">ПОДГОТОВКА К ЗАПУСКУ КОФЕЙНИ.</div>
+				<button class="franchise-start__btn js-accordion__btn">
+					<span class="vissually-hidden">Открыть элемент</span>
+				</button>
+				<ul class="franchise-start__list js-accordion__content js-accordion__content--active">
+					<li class="franchise-start__element">
+						Подбираем и устанавливаем <br> оборудование и инвентарь
+					</li>
+					<li class="franchise-start__element">
+						Налаживаем процессы поставки <br> продукции в соответствии с <br> ассортиментной матрицеq
+					</li>
+					<li class="franchise-start__element">
+						Обучаем вас и сотрудников всем аспектам работы, в нашем учебном центре
+					</li>
+					<li class="franchise-start__element">
+						Автоматизируем все процессы и <br> подключаем ERP. Вместе запускаем кофейню и приветствуем первых гостей
+					</li>
+				</ul>
+			</li>
+
+			<li class="franchise-start__item tk-anim tk-a-translate-b tk-no-hide">
+				<div class="title-2 franchise-start__subtitle">ПОМОЩЬ В&nbsp;ЗАПУСКЕ КОФЕЙНИ</div>
+				<button class="franchise-start__btn js-accordion__btn">
+					<span class="vissually-hidden">Открыть элемент</span>
+				</button>
+				<ul class="franchise-start__list js-accordion__content">
+					<li class="franchise-start__element">
+						Подбираем и устанавливаем оборудование и инвентарь
+					</li>
+					<li class="franchise-start__element">
+						Налаживаем процессы поставки продукции в соответствии с ассортиментной матрицеq
+					</li>
+					<li class="franchise-start__element">
+						Обучаем вас и сотрудников всем аспектам работы, в нашем учебном центре
+					</li>
+					<li class="franchise-start__element">
+						Автоматизируем все процессы и подключаем ERP. Вместе запускаем кофейню и приветствуем первых гостей
+					</li>
+				</ul>
+			</li>
+
+			<li class="franchise-start__item tk-anim tk-a-translate-b tk-no-hide">
+				<div class="title-2 franchise-start__subtitle">ПОДДЕРЖКА НА ЭТАПАХ РАБОТЫ</div>
+				<button class="franchise-start__btn js-accordion__btn">
+					<span class="vissually-hidden">Открыть элемент</span>
+				</button>
+				<ul class="franchise-start__list js-accordion__content">
+					<li class="franchise-start__element">
+						Подбираем и устанавливаем оборудование и инвентарь
+					</li>
+					<li class="franchise-start__element">
+						Налаживаем процессы поставки продукции в соответствии с ассортиментной матрицеq
+					</li>
+					<li class="franchise-start__element">
+						Обучаем вас и сотрудников всем аспектам работы, в нашем учебном центре
+					</li>
+					<li class="franchise-start__element">
+						Автоматизируем все процессы и подключаем ERP. Вместе запускаем кофейню и приветствуем первых гостей
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</section>
+
+		<section class="call">
+	<div class="container">
+		<div class="call__inner">
+			<img class="call__image tk-anim tk-a-scale tk-no-hide" src="img/call-image.png" alt="">
+
+			<div class="call__content  tk-anim tk-a-translate-r tk-no-hide">
+				<h2 class="title-2 call__title">ГОТОВ ЛИ ТЫ ОТКРЫТЬ СВОЮ КОФЕЙНЮ ПО ФРАНШИЗЕ?</h2>
+
+				<p class="call__text">
+					Пройдите тест и получите результат!
+				</p>
+
+				<button class="btn call__btn js-quiz-btn" data-modal-target=".quiz">
+					<span class="btn__bg">
+						<span class="btn__wave"></span>
+					</span>
+					<span class="btn__text">Пройди тест</span>
+				</button>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+		<section class="team" style="background-color: #fe8aaa;">
+	<div class="container">
+		<div class="team__inner">
+			<h2 class="title-2 team__title tk-anim tk-a-rotate tk-no-hide">
+				ВАС ПОДДЕРЖИТ КОМАНДА ПРОФЕССИОНАЛОВ <br>
+				С 10 летним опытом!
+			</h2>
+			<div class="swiper-container" id="team-slider">
+				<ul class="team__list swiper-wrapper">
+					<li class="team__item" data-da="team__inner,0,1300">
+						<div class="team__info">
+							<span class="team__suptitle">Запустили более</span>
+							<span class="team__value">150</span>
+							<span class="team__subtitle">кофеен!</span>
+						</div>
+					</li>
+					<li class="team__item js-team-btn swiper-slide js-team-modal" data-modal-target="#team-modal">
+						<div class="team__image">
+							<img class="team__img" src="img/team/team-member-1.png" alt="Анатолий Анатольев - Какая то должность">
+						</div>
+						<div class="team__name js-name">Анатолий Анатольев 1</div>
+						<div class="team__position js-position">Какая то должность 1</div>
+					</li>
+					<li class="team__item js-team-btn swiper-slide js-team-modal" data-modal-target="#team-modal">
+						<div class="team__image">
+							<img class="team__img" src="img/team/team-member-1.png" alt="Анатолий Анатольев - Какая то должность">
+						</div>
+						<div class="team__name js-name">Анатолий Анатольев 1</div>
+						<div class="team__position js-position">Какая то должность 1</div>
+					</li>
+					<li class="team__item js-team-btn swiper-slide js-team-modal" data-modal-target="#team-modal">
+						<div class="team__image">
+							<img class="team__img" src="img/team/team-member-1.png" alt="Анатолий Анатольев - Какая то должность">
+						</div>
+						<div class="team__name js-name">Анатолий Анатольев 1</div>
+						<div class="team__position js-position">Какая то должность 1</div>
+					</li>
+					<li class="team__item js-team-btn swiper-slide js-team-modal" data-modal-target="#team-modal">
+						<div class="team__image">
+							<img class="team__img" src="img/team/team-member-1.png" alt="Анатолий Анатольев - Какая то должность">
+						</div>
+						<div class="team__name js-name">Анатолий Анатольев 1</div>
+						<div class="team__position js-position">Какая то должность 1</div>
+					</li>
+					<li class="team__item js-team-btn swiper-slide js-team-modal" data-modal-target="#team-modal">
+						<div class="team__image">
+							<img class="team__img" src="img/team/team-member-1.png" alt="Анатолий Анатольев - Какая то должность">
+						</div>
+						<div class="team__name js-name">Анатолий Анатольев 1</div>
+						<div class="team__position js-position">Какая то должность 1</div>
+					</li>
+					<li class="team__item js-team-btn swiper-slide js-team-modal" data-modal-target="#team-modal">
+						<div class="team__image">
+							<img class="team__img" src="img/team/team-member-1.png" alt="Анатолий Анатольев - Какая то должность">
+						</div>
+						<div class="team__name js-name">Анатолий Анатольев 1</div>
+						<div class="team__position js-position">Какая то должность 1</div>
+					</li>
+					<li class="team__item js-team-btn swiper-slide js-team-modal" data-modal-target="#team-modal">
+						<div class="team__image">
+							<img class="team__img" src="img/team/team-member-1.png" alt="Анатолий Анатольев - Какая то должность">
+						</div>
+						<div class="team__name js-name">Анатолий Анатольев 1</div>
+						<div class="team__position js-position">Какая то должность 1</div>
+					</li>
+					<li class="team__item js-team-btn swiper-slide js-team-modal" data-modal-target="#team-modal">
+						<div class="team__image">
+							<img class="team__img" src="img/team/team-member-1.png" alt="Анатолий Анатольев - Какая то должность">
+						</div>
+						<div class="team__name js-name">Анатолий Анатольев 1</div>
+						<div class="team__position js-position">Какая то должность 1</div>
+					</li>
+				</ul>
+				<div class="team__nav">
+					<button class="team__btn team__btn--prev">Свайп назад</button>
+					<div class="team__pagination swiper-pagination"></div>
+					<button class="team__btn team__btn--next">Свайп вперед</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+		<section class="education-center" style="background-color: #343779;">
+	<div class="container">
+		<h2 class="title-2 education-center__title">
+			<span class="tk-anim tk-a-translate-l tk-no-hide">У НАС СОБСТВЕННЫЙ УЧЕБНЫЙ ЦЕНТР ДЛЯ ПАРТНЕРОВ ПЛОЩАДЬЮ</span>
+		</h2>
+
+		<div class="education-center__value">
+			<span class="education-center__number tk-anim tk-a-rotate tk-no-hide" style="--text: '450'">
+				<span>450</span>
+			</span>
+			<div class="education-center__value-row">
+				<sup class="education-center__index tk-anim tk-a-translate-b tk-no-hide" style="--text: 'м2'"><span>м2</span></sup>
+				<p class="education-center__text tk-anim tk-a-rotate tk-no-hide">
+					Самый БОЛЬШОЙ в индустрии!
+				</p>
+			</div>
+		</div>
+
+		<ul class="education-center__list">
+			<li class="education-center__item tk-anim tk-a-translate-b tk-no-hide">
+				Полное обучение собственников <br> позволяет избежать ошибок на <br> запуске и в управлении кофейней
+			</li>
+			<li class="education-center__item tk-anim tk-a-translate-b tk-no-hide">
+				Обучаем бариста по многоуровневой методике, высокое качество напитков и сервиса обеспечивает развитие кофейни
+			</li>
+			<li class="education-center__item tk-anim tk-a-translate-b tk-no-hide">
+				Наша команда выезжает <br> в регионы для запуска и <br> адаптации кофейни
+			</li>
+		</ul>
+
+		<!-- Slider main container -->
+		<div class="education-center__slider swiper-container">
+			<!-- Additional required wrapper -->
+			<div class="education-center__wrapper swiper-wrapper">
+				<!-- Slides -->
+				<div class="education-center__slide swiper-slide">
+					<img class="education-center__image" src="img/franschise/swiper-image-1.jpg" alt="">
+				</div>
+				<div class="education-center__slide swiper-slide">
+					<img class="education-center__image" src="img/franschise/swiper-image-2.jpg" alt="">
+				</div>
+				<div class="education-center__slide swiper-slide">
+					<img class="education-center__image" src="img/franschise/swiper-image-3.jpg" alt="">
+				</div>
+				<div class="education-center__slide swiper-slide">
+					<img class="education-center__image" src="img/franschise/swiper-image-1.jpg" alt="">
+				</div>
+				<div class="education-center__slide swiper-slide">
+					<img class="education-center__image" src="img/franschise/swiper-image-2.jpg" alt="">
+				</div>
+				<div class="education-center__slide swiper-slide">
+					<img class="education-center__image" src="img/franschise/swiper-image-3.jpg" alt="">
+				</div>
+				<!-- <div class="education-center__slide swiper-slide">
+					<img class="education-center__image" src="img/franschise/swiper-image-4.jpg" alt="">
+				</div> -->
+<!-- 
+				<div class="education-center__slide swiper-slide">
+					<img class="education-center__image" src="img/franschise/swiper-image-1.jpg" alt="">
+				</div>
+				<div class="education-center__slide swiper-slide">
+					<img class="education-center__image" src="img/franschise/swiper-image-2.jpg" alt="">
+				</div>
+				<div class="education-center__slide swiper-slide">
+					<img class="education-center__image" src="img/franschise/swiper-image-3.jpg" alt="">
+				</div>
+				<div class="education-center__slide swiper-slide">
+					<img class="education-center__image" src="img/franschise/swiper-image-4.jpg" alt="">
+				</div> -->
+			</div>
+
+			<div class="education-center__row">
+				<!-- If we need navigation buttons -->
+				<div class="education-center__btns">
+					<button class="education-center__nav education-center__nav--prev">Свайп назад</button>
+					<div class="education-center__pagination swiper-pagination"></div>
+					<button class="education-center__nav education-center__nav--next">Свайп вперед</button>
+				</div>
+
+				<!-- If we need scrollbar -->
+				<div class="education-center__scrollbar swiper-scrollbar"></div>
+				<button class="btn education-center__btn js-pupup-btn" data-modal-target="#modal1">
+					<span class="btn__bg">
+						<span class="btn__wave"></span>
+					</span>
+					<span class="btn__text">Хочу персональную экскурсию</span>
+				</button>
+			</div>
+		</div>
+	</div>
+</section>
+
+		<section class="form-block" style="background-color: #f8b750;">
+	<div class="form-block__decor">
+		<img class="form-block__decor-image tk-anim tk-a-scale tk-no-hide" src="img/form-block-bg-decor.png" alt="">
+	</div>
+	<div class="container">
+		<div class="form-block__inner">
+			<h2 class="form-block__title tk-anim tk-a-translate-l tk-no-hide">
+				<span>Даже без опыта <br> ведения бизнеса</span>
+				ВЫ СМОЖЕТЕ <br> ОТКРЫТЬ <br> ПРИБЫЛЬНУЮ <br> КОФЕЙНЮ ПО <br> ФРАНШИЗЕ <br> FlyCoffee
+			</h2>
+
+			<form action="#" class="form form-block__form tk-anim tk-a-translate-b tk-no-hide">
+				<div class="form__title form-block__subtitle">
+					В каком городе вы планируете <br>
+					открыть кофейню?
+				</div>
+
+				<label class="tm-field form__label">
+					<input type="text" class="tm-field__input form__field" placeholder="Введите незвание города" required>
+				</label>
+				<label class="tm-field form__label">
+					<input type="tel" class="tm-field__input form__field" placeholder="Ваш телефон" required>
+				</label>
+				<label class="tm-field form__label">
+					<input type="email" class="tm-field__input form__field" placeholder="Ваш E-mail" required>
+				</label>
+
+				<label class="tm-checkbox form__processing">
+					<input class="tm-checkbox__input" type="checkbox" required>
+					<span class="tm-checkbox__box form__checkbox"></span>
+					<span class="form__processing-text">Соглащение на <a href="#">Обработка персональных данных</a></span>
+				</label>
+
+				<button class="btn btn--transparent form__btn">
+					<span class="btn__text">Далее</span>
+				</button>
+			</form>
+		</div>
+	</div>
+</section>
+
+		<section class="qna" style="background-color: #343779;">
+	<div class="container">
+		<div class="qna__inner">
+			<h2 class="title-2 qna__title tk-anim tk-a-rotate tk-no-hide">
+				ОТВЕТЫ НА ЧАСТО
+				ЗАДАВАЕМЫЕ ВОПРОСЫ
+			</h2>
+
+			<ul class="qna__list js-accordion">
+				<li class="qna__item tk-anim tk-a-translate-b tk-no-hide">
+					<div class="qna__row">
+						<div class="qna__subtitle">
+							В чем разница между открытием кофейни с нуля и покупкой франшизы?
+						</div>
+						<button class="qna__btn js-accordion__btn">
+							<span class="vissually-hidden">Открыть элемент</span>
+						</button>
+					</div>
+					<div class="qna__content js-accordion__content js-accordion__content--active">
+						<p>
+							Открывая кофейню с нуля, вы получаете уникальную возможность прочувствовать все несовершенство бюрократической машины, выслушать мнение гостей о навыках новых подчиненных в литературных (и не очень) оборотах и, конечно же, узнать о партнерах, поставщиках и о себе много нового. Покупая франшизу, вы лишаетесь этой гаммы переживаний и получаете заведомо рабочую бизнес-модель, протестированную точку, полностью интегрированное (под имеющиеся место) рабочее пространство, компетентный персонал и надежное плечо своего франчайзера.
+						</p>
+					</div>
+				</li>
+
+				<li class="qna__item tk-anim tk-a-translate-b tk-no-hide">
+					<div class="qna__row">
+						<div class="qna__subtitle">
+							Сколько времени уйдет на запуск, если место уже подобрано?
+						</div>
+						<button class="qna__btn js-accordion__btn">
+							<span class="vissually-hidden">Открыть элемент</span>
+						</button>
+					</div>
+					<div class="qna__content js-accordion__content">
+						<p>
+							Открывая кофейню с нуля, вы получаете уникальную возможность прочувствовать все несовершенство бюрократической машины, выслушать мнение гостей о навыках новых подчиненных в литературных (и не очень) оборотах и, конечно же, узнать о партнерах, поставщиках и о себе много нового. Покупая франшизу, вы лишаетесь этой гаммы переживаний и получаете заведомо рабочую бизнес-модель, протестированную точку, полностью интегрированное (под имеющиеся место) рабочее пространство, компетентный персонал и надежное плечо своего франчайзера.
+						</p>
+					</div>
+				</li>
+
+				<li class="qna__item tk-anim tk-a-translate-b tk-no-hide">
+					<div class="qna__row">
+						<div class="qna__subtitle">
+							Есть ли определенные требования для помещения под кофейню?
+						</div>
+						<button class="qna__btn js-accordion__btn">
+							<span class="vissually-hidden">Открыть элемент</span>
+						</button>
+					</div>
+					<div class="qna__content js-accordion__content">
+						<p>
+							Открывая кофейню с нуля, вы получаете уникальную возможность прочувствовать все несовершенство бюрократической машины, выслушать мнение гостей о навыках новых подчиненных в литературных (и не очень) оборотах и, конечно же, узнать о партнерах, поставщиках и о себе много нового. Покупая франшизу, вы лишаетесь этой гаммы переживаний и получаете заведомо рабочую бизнес-модель, протестированную точку, полностью интегрированное (под имеющиеся место) рабочее пространство, компетентный персонал и надежное плечо своего франчайзера.
+						</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+		<section class="contacts" style="background-color: #343779;">
+	<div class="container">
+		<div class="contacts__row tk-anim tk-a-translate-b tk-no-hide">
+			<h2 class="title-2 contacts__title">ОСТАЛИСЬ <br> ВОПРОСЫ?</h2>
+			<p class="contacts__text">Получите <br> бесплатную <br> консультацию!</p>
+		</div>
+
+		<div class="contacts__row tk-anim tk-a-translate-b tk-no-hide">
+			<div class="contacts__box">
+				<div class="contacts__box-inner" style="background-color: #F190AF;">
+					<div>
+						<img class="contacts__image" src="img/franschise/contacts-item-1.svg" alt="">
+					</div>
+					<p class="contacts__subtitle">
+						Запишитесь на встречу с командой в нашем офисе
+					</p>
+					<div class="contacts__data">
+						<svg class="contacts__icon s-map-marker">
+							<use xlink:href="img/svg/sprite1.svg#map-marker" />
+						</svg>
+						Москва <br>
+						Большая Почтовая 36
+					</div>
+					<button class="btn btn--transparent contacts__btn js-pupup-btn" data-modal-target="#modal1">
+						<span class="btn__text">Записаться</span>
+					</button>
+				</div>
+			</div>
+
+			<div class="contacts__box">
+				<div class="contacts__box-inner" style="background-color: #F85F3F;">
+					<div>
+						<img class="contacts__image" src="img/franschise/contacts-item-2.svg" alt="">
+					</div>
+					<p class="contacts__subtitle">
+						Запишитесь на видео
+						консультацию
+					</p>
+					<div class="contacts__data">
+						По WhatsApp
+					</div>
+					<button class="btn btn--transparent contacts__btn js-pupup-btn" data-modal-target="#modal1">
+						<span class="btn__text">Записаться</span>
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<ul class="contacts__list tk-anim tk-a-translate-b tk-no-hide">
+			<li class="contacts__item">
+				<div class="contacts__name">Телефон</div>
+				<div class="contacts__value"><a href="tel:+84950233397">8 (495) 023-33-97</a></div>
+			</li>
+			<li class="contacts__item">
+				<div class="contacts__name">E-mail</div>
+				<div class="contacts__value"><a href="mailto:Info@flycoffe.ru">Info@flycoffe.ru</a></div>
+			</li>
+			<li class="contacts__item">
+				<div class="contacts__name">Адрес</div>
+				<div class="contacts__value"><a href="#">Москва, Большая Почтовая 36</a></div>
+			</li>
+		</ul>
+
+	</div>
+</section>
+	</main>
+
+	
+<footer class="footer js-f-accordion tk-anim tk-a-opacity tk-no-hide" style="background-color: #343779;">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="footer__box footer__box--m-border">
+				<a class="logo footer__logo" href="#">
+					<img class="logo__image" src="img/logo-white.svg" alt="">
+				</a>
+				<p class="footer__text">
+					с 2002 года в сфере гостеприимства
+				</p>
+			</div>
+
+			<div class="footer__box footer__box--m-border footer__box--accordion">
+				<div class="footer__subtitle js-f-accordion__btn">Гостю</div>
+				<ul class="footer__list js-f-accordion__content">
+					<li class="footer__item"><a class="footer__link" href="#">Меню</a></li>
+					<li class="footer__item"><a class="footer__link" href="#">Адреса кофеен</a></li>
+					<li class="footer__item"><a class="footer__link" href="#">Новости/акции</a></li>
+				</ul>
+			</div>
+			<div class="footer__box footer__box--m-border footer__box--accordion">
+				<div class="footer__subtitle js-f-accordion__btn">Бизнесу</div>
+				<ul class="footer__list js-f-accordion__content">
+					<li class="footer__item"><a class="footer__link" href="#">Франшиза</a></li>
+					<li class="footer__item"><a class="footer__link" href="#">Команда</a></li>
+					<li class="footer__item"><a class="footer__link" href="#">Форматы кофеен</a></li>
+					<li class="footer__item"><a class="footer__link" href="#">План развития</a></li>
+					<li class="footer__item"><a class="footer__link" href="#">Арендодателям</a></li>
+					<li class="footer__item"><a class="footer__link" href="#">Для сми</a></li>
+					<li class="footer__item"><a class="footer__link" href="#">Поиск помещения</a></li>
+					<li class="footer__item"><a class="footer__link" href="#">БЛОГ</a></li>
+				</ul>
+			</div>
+			<div class="footer__box">
+				<div class="footer__subtitle">Контакты</div>
+				<ul class="footer__list">
+					<li class="footer__item"><a class="footer__link" href="#">8 (800) 707-91-13</a></li>
+				</ul>
+			</div>
+			<div class="footer__box">
+				<div class="footer__subtitle">РЕЖИМ РАБОТЫ</div>
+				<ul class="footer__list">
+					<li class="footer__item"><a class="footer__link" href="#">Пн. - Пт. с 10:00 до 20:00</a></li>
+				</ul>
+			</div>
+			<div class="footer__box">
+				<ul class="footer__social-list">
+					<li class="footer__social">
+						<a class="footer__svg" href="#">
+							<svg class="tm-i-instagram tm-i-instagram--white" width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<circle cx="27.5" cy="27.5" r="27" stroke="inherit" />
+								<path d="M32.125 17H23.875C20.0786 17 17 20.0786 17 23.875V32.125C17 35.9214 20.0786 39 23.875 39H32.125C35.9214 39 39 35.9214 39 32.125V23.875C39 20.0786 35.9214 17 32.125 17ZM36.9375 32.125C36.9375 34.7787 34.7787 36.9375 32.125 36.9375H23.875C21.2213 36.9375 19.0625 34.7787 19.0625 32.125V23.875C19.0625 21.2213 21.2213 19.0625 23.875 19.0625H32.125C34.7787 19.0625 36.9375 21.2213 36.9375 23.875V32.125Z" fill="inherit" />
+								<path d="M28 22.5C24.9626 22.5 22.5 24.9626 22.5 28C22.5 31.0374 24.9626 33.5 28 33.5C31.0374 33.5 33.5 31.0374 33.5 28C33.5 24.9626 31.0374 22.5 28 22.5ZM28 31.4375C26.1052 31.4375 24.5625 29.8948 24.5625 28C24.5625 26.1039 26.1052 24.5625 28 24.5625C29.8948 24.5625 31.4375 26.1039 31.4375 28C31.4375 29.8948 29.8948 31.4375 28 31.4375Z" fill="inherit" />
+								<path d="M33.9131 22.8212C34.3178 22.8212 34.6459 22.4931 34.6459 22.0883C34.6459 21.6836 34.3178 21.3555 33.9131 21.3555C33.5083 21.3555 33.1802 21.6836 33.1802 22.0883C33.1802 22.4931 33.5083 22.8212 33.9131 22.8212Z" fill="inherit" />
+							</svg>
+						</a>
+					</li>
+					<li class="footer__social">
+						<a class="footer__svg" href="#">
+							<svg class="tm-i-vk tm-i-vk--white" width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<circle cx="27.5" cy="27.5" r="27" stroke="inherit" />
+								<path d="M38.8039 32.1962C38.7448 32.0972 38.379 31.3024 36.6189 29.6688C34.7762 27.9581 35.0238 28.2359 37.2432 25.2781C38.5949 23.4767 39.1353 22.3766 38.9662 21.9063C38.8053 21.458 37.8111 21.5763 37.8111 21.5763L34.5053 21.5955C34.5053 21.5955 34.2606 21.5625 34.0777 21.6712C33.9003 21.7784 33.7862 22.0259 33.7862 22.0259C33.7862 22.0259 33.2623 23.4203 32.5637 24.6056C31.091 27.1069 30.501 27.2389 30.2604 27.0836C29.7007 26.7219 29.841 25.6287 29.841 24.8531C29.841 22.4288 30.2082 21.4181 29.1246 21.1569C28.7643 21.0702 28.5003 21.0125 27.5803 21.0029C26.4005 20.9905 25.4008 21.007 24.8356 21.2834C24.4589 21.4677 24.1687 21.8788 24.3461 21.9022C24.5647 21.9311 25.0598 22.0356 25.3224 22.3931C25.6621 22.8538 25.6497 23.8906 25.6497 23.8906C25.6497 23.8906 25.845 26.7439 25.1945 27.0987C24.7476 27.3421 24.1357 26.8457 22.8225 24.5754C22.1501 23.4134 21.6413 22.1277 21.6413 22.1277C21.6413 22.1277 21.5436 21.8884 21.369 21.7605C21.1572 21.6052 20.8602 21.5557 20.8602 21.5557L17.7167 21.5749C17.7167 21.5749 17.2451 21.5887 17.0718 21.7936C16.9178 21.9764 17.0594 22.3532 17.0594 22.3532C17.0594 22.3532 19.5209 28.1108 22.3068 31.0136C24.8631 33.6744 27.7646 33.4998 27.7646 33.4998H29.0792C29.0792 33.4998 29.4766 33.4558 29.6787 33.2371C29.8658 33.0364 29.8589 32.6596 29.8589 32.6596C29.8589 32.6596 29.8327 30.8953 30.6523 30.6354C31.4595 30.3797 32.4963 32.3406 33.595 33.0955C34.4256 33.6662 35.0568 33.541 35.0568 33.541L37.9953 33.4998C37.9953 33.4998 39.5327 33.4049 38.8039 32.1962Z" fill="inherit" />
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="footer__bottom">
+			<p>2020 © Все права защищены</p>
+			<a href="#">Пользовательское соглашение</a>
+			<p class="footer__creator">Создание сайта - Karanikola</p>
+		</div>
+	</div>
+</footer>
+
+
+
+	<div class="quiz" data-simplebar>
+	<form class="quiz__inner js-send-form" method="POST" action="resources/mailer.php">
+		<button class="quiz__close js-close">
+			<svg width="40" height="40" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M42.4268 14.1406L14.1425 42.4249" stroke="#343779" stroke-width="5" />
+				<path d="M14.1416 14.1406L42.4259 42.4249" stroke="#343779" stroke-width="5" />
+			</svg>
+		</button>
+		<div class="quiz__image-slider swiper-container">
+			<div class="swiper-wrapper">
+				<div class="quiz__image swiper-slide">
+					<img class="quiz__img" src="img/quiz/1.png" alt="">
+				</div>
+				<div class="quiz__image swiper-slide">
+					<img class="quiz__img" src="img/quiz/2.png" alt="">
+				</div>
+				<div class="quiz__image swiper-slide">
+					<img class="quiz__img" src="img/quiz/3.png" alt="">
+				</div>
+				<div class="quiz__image swiper-slide">
+					<img class="quiz__img" src="img/quiz/4.png" alt="">
+				</div>
+				<div class="quiz__image swiper-slide">
+					<img class="quiz__img" src="img/quiz/5.png" alt="">
+				</div>
+				<div class="quiz__image swiper-slide">
+					<img class="quiz__img" src="img/quiz/6.png" alt="">
+				</div>
+				<div class="quiz__image swiper-slide">
+					<img class="quiz__img" src="img/quiz/7.png" alt="">
+				</div>
+				<div class="quiz__image swiper-slide">
+					<img class="quiz__img" src="img/quiz/8.png" alt="">
+				</div>
+				<div class="quiz__image swiper-slide">
+					<img class="quiz__img" src="img/quiz/9.png" alt="">
+				</div>
+				<div class="quiz__image swiper-slide">
+					<img class="quiz__img" src="img/quiz/10.png" alt="">
+				</div>
+				<div class="quiz__image swiper-slide">
+					<img class="quiz__img" src="img/quiz/11.png" alt="">
+				</div>
+				<div class="quiz__image swiper-slide">
+					<img class="quiz__img" src="img/quiz/12.png" alt="">
+				</div>
+				<div class="quiz__image swiper-slide">
+					<img class="quiz__img" src="img/quiz/13.png" alt="">
+				</div>
+				<div class="quiz__image swiper-slide">
+					<img class="quiz__img" src="img/quiz/14.png" alt="">
+				</div>
+				<div class="quiz__image swiper-slide">
+					<img class="quiz__img" src="img/quiz/15.png" alt="">
+				</div>
+			</div>
+
+		</div>
+
+		<div class="quiz__content swiper-container">
+			<div class="quiz__progress">
+				<span class="quiz__current">1</span>
+				/
+				<span class="quiz__count">15</span>
+			</div>
+			<div class="quiz__slider swiper-wrapper">
+				<div class="quiz__item swiper-slide">
+					<div class="quiz__title">
+						Приходилось ли Вам ранее заниматься предпринимательской деятельностью?
+					</div>
+					<div class="quiz__box">
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Приходилось ли Вам ранее заниматься предпринимательской деятельностью?" checked value="Да. Я предприниматель со стажем, есть опыт в HoReCa.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Да. Я предприниматель со стажем, есть опыт в HoReCa.</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Приходилось ли Вам ранее заниматься предпринимательской деятельностью?" value="Да. Но деятельность никак не связана с HoReCa.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Да. Но деятельность никак не связана с HoReCa.</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Приходилось ли Вам ранее заниматься предпринимательской деятельностью?" value="Нет..">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Нет..</span>
+						</label>
+					</div>
+				</div>
+
+				<div class="quiz__item swiper-slide">
+					<div class="quiz__title">
+						Что по вашему мнению в большей степени влияет на успех кофейни?
+					</div>
+					<div class="quiz__box">
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Что по вашему мнению в большей степени влияет на успех кофейни?" checked value="Доступная локация">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Доступная локация</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Что по вашему мнению в большей степени влияет на успех кофейни?" value="Узнаваемость бренда">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Узнаваемость бренда</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Что по вашему мнению в большей степени влияет на успех кофейни?" value="Лояльные цены">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Лояльные цены</span>
+						</label>
+					</div>
+				</div>
+
+				<div class="quiz__item swiper-slide">
+					<div class="quiz__title">
+						Есть ли у Вас опыт подбора помещений?
+					</div>
+					<div class="quiz__box">
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Есть ли у Вас опыт подбора помещений?" checked value="Да. Занимался подбором помещения.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Да. Занимался подбором помещения.</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Есть ли у Вас опыт подбора помещений?" value="Приходилось сталкиваться. Доверил подбор специалисту.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Приходилось сталкиваться. Доверил подбор специалисту.</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Есть ли у Вас опыт подбора помещений?" value="Нет, не приходилось заниматься этим.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Нет, не приходилось заниматься этим.</span>
+						</label>
+					</div>
+				</div>
+
+				<div class="quiz__item swiper-slide">
+					<div class="quiz__title">
+						Приходилось ли Вам за месяц отсматривать около 100 помещений?
+					</div>
+					<div class="quiz__box">
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Приходилось ли Вам за месяц отсматривать около 100 помещений?" checked value="Нет. Остановился на первых попавшися вариантах.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Нет. Остановился на первых попавшися вариантах.</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Приходилось ли Вам за месяц отсматривать около 100 помещений?" value="Обошел 10-20 варантов, среди которых нашел подходящий.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Обошел 10-20 варантов, среди которых нашел подходящий.</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Приходилось ли Вам за месяц отсматривать около 100 помещений?" value="Да">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Да</span>
+						</label>
+					</div>
+				</div>
+
+				<div class="quiz__item swiper-slide">
+					<div class="quiz__title">
+						На сколько хорошо Вы разбираетесь в дизайне?
+					</div>
+					<div class="quiz__box">
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="На сколько хорошо Вы разбираетесь в дизайне?" checked value="Предпочту нанять профессионального дизайнера.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Предпочту нанять профессионального дизайнера.</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="На сколько хорошо Вы разбираетесь в дизайне?" value="Придирчив к работе дизайнера. Вношу корректировки.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Придирчив к работе дизайнера. Вношу корректировки.</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="На сколько хорошо Вы разбираетесь в дизайне?" value="Зачем платить? Я сам знаю, как нужно сделать.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Зачем платить? Я сам знаю, как нужно сделать.</span>
+						</label>
+					</div>
+				</div>
+
+				<div class="quiz__item swiper-slide">
+					<div class="quiz__title">
+						Командный дух - насколько это важно?
+					</div>
+					<div class="quiz__box">
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Командный дух - насколько это важно?" checked value="Одна из основных составляющих успешного бизнеса.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Одна из основных составляющих успешного бизнеса.</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Командный дух - насколько это важно?" value="Не самое важное, но имеет место быть.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Не самое важное, но имеет место быть.</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Командный дух - насколько это важно?" value="Далеко не на первом месте.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Далеко не на первом месте.</span>
+						</label>
+					</div>
+				</div>
+
+				<div class="quiz__item swiper-slide">
+					<div class="quiz__title">
+						Важно ли для Вас нести полную ответственность за неудачи или приятней всё делать в команде и разделять ответственность?
+					</div>
+					<div class="quiz__box">
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Важно ли для Вас нести полную ответственность за неудачи или приятней всё делать в команде и разделять ответственность?" checked value="Я сам отвечаю за свои ошибки.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Я сам отвечаю за свои ошибки.</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Важно ли для Вас нести полную ответственность за неудачи или приятней всё делать в команде и разделять ответственность?" value="Здорово, если есть поддержка, на которую можно положиться.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Здорово, если есть поддержка, на которую можно положиться.</span>
+						</label>
+					</div>
+				</div>
+
+				<div class="quiz__item swiper-slide">
+					<div class="quiz__title">
+						Знаком ли Вам термин EBITDA? Доводилось ли применять данный показательна практике?
+					</div>
+					<div class="quiz__box">
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Знаком ли Вам термин EBITDA? Доводилось ли применять данный показательна практике?" checked value="Не знаком.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Не знаком.</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Знаком ли Вам термин EBITDA? Доводилось ли применять данный показательна практике?" value="Знаком, но на практике не применялся.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Знаком, но на практике не применялся.</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Знаком ли Вам термин EBITDA? Доводилось ли применять данный показательна практике?" value="Знаком и применялся на практике.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Знаком и применялся на практике.</span>
+						</label>
+					</div>
+				</div>
+
+				<div class="quiz__item swiper-slide">
+					<div class="quiz__title">
+						Умеете ли Вы составлять калькуляционные и технологические карты?
+					</div>
+					<div class="quiz__box">
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Умеете ли Вы составлять калькуляционные и технологические карты?" checked value="Да, умею">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Да, умею</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Умеете ли Вы составлять калькуляционные и технологические карты?" value="Нет, но знаю к кому и зачем обратиться">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Нет, но знаю к кому и зачем обратиться</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Умеете ли Вы составлять калькуляционные и технологические карты?" value="А что это?">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">А что это?</span>
+						</label>
+					</div>
+				</div>
+
+				<div class="quiz__item swiper-slide">
+					<div class="quiz__title">
+						Отметьте варианты ответов, которые необходимы для рассчета эфективности продаж в кофейне.
+					</div>
+					<div class="quiz__box quiz__box--grid">
+						<label class="quiz__label tm-checkbox-2">
+							<input type="checkbox" class="quiz__radio tm-checkbox-2__input" name="Отметьте варианты ответов, которые необходимы для рассчета эфективности продаж в кофейне 1" value="Средний чек">
+							<span class="tm-checkbox-2__box"></span>
+							<span class="tm-checkbox-2__text quiz__text">Средний чек</span>
+						</label>
+						<label class="quiz__label tm-checkbox-2">
+							<input type="checkbox" class="quiz__radio tm-checkbox-2__input" name="Отметьте варианты ответов, которые необходимы для рассчета эфективности продаж в кофейне 2" value="Качество молока">
+							<span class="tm-checkbox-2__box"></span>
+							<span class="tm-checkbox-2__text quiz__text">Качество молока</span>
+						</label>
+						<label class="quiz__label tm-checkbox-2">
+							<input type="checkbox" class="quiz__radio tm-checkbox-2__input" name="Отметьте варианты ответов, которые необходимы для рассчета эфективности продаж в кофейне 3" value="Количество гостей">
+							<span class="tm-checkbox-2__box"></span>
+							<span class="tm-checkbox-2__text quiz__text">Количество гостей</span>
+						</label>
+						<label class="quiz__label tm-checkbox-2">
+							<input type="checkbox" class="quiz__radio tm-checkbox-2__input" name="Отметьте варианты ответов, которые необходимы для рассчета эфективности продаж в кофейне 4" value="График работы бариста">
+							<span class="tm-checkbox-2__box"></span>
+							<span class="tm-checkbox-2__text quiz__text">График работы бариста</span>
+						</label>
+						<label class="quiz__label tm-checkbox-2">
+							<input type="checkbox" class="quiz__radio tm-checkbox-2__input" name="Отметьте варианты ответов, которые необходимы для рассчета эфективности продаж в кофейне 5" value="Дополнительная продажа">
+							<span class="tm-checkbox-2__box"></span>
+							<span class="tm-checkbox-2__text quiz__text">Дополнительная продажа</span>
+						</label>
+						<label class="quiz__label tm-checkbox-2">
+							<input type="checkbox" class="quiz__radio tm-checkbox-2__input" name="Отметьте варианты ответов, которые необходимы для рассчета эфективности продаж в кофейне 6" value="Скорость отдачи напитка">
+							<span class="tm-checkbox-2__box"></span>
+							<span class="tm-checkbox-2__text quiz__text">Скорость отдачи напитка</span>
+						</label>
+					</div>
+				</div>
+
+				<div class="quiz__item swiper-slide">
+					<div class="quiz__title">
+						Как долго Вы можете с увлечением заниматься одним родом деятельности?
+					</div>
+					<div class="quiz__box">
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Как долго Вы можете с увлечением заниматься одним родом деятельности?" checked value="Быстро выгораю. Предпочитаю продавать свои проекты.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Быстро выгораю. Предпочитаю продавать свои проекты.</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Как долго Вы можете с увлечением заниматься одним родом деятельности?" value="Каждому жизненному этапу - свой бизнес.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Каждому жизненному этапу - свой бизнес.</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Как долго Вы можете с увлечением заниматься одним родом деятельности?" value="Бизнес – это дело жизни, которое нужно передать свои детям">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Бизнес – это дело жизни, которое нужно передать свои детям</span>
+						</label>
+					</div>
+				</div>
+
+				<div class="quiz__item swiper-slide">
+					<div class="quiz__title">
+						Рассматриваете ли Вы кофейню как инвестиционный проект? Или же предпочли бы формат кофейни как собственного бизнеса?
+					</div>
+					<div class="quiz__box">
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Рассматриваете ли Вы кофейню как инвестиционный проект? Или же предпочли бы формат кофейни как собственного бизнеса?" value="Предпочту вложить деньги и получать с этого доход." checked>
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Предпочту вложить деньги и получать с этого доход.</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Рассматриваете ли Вы кофейню как инвестиционный проект? Или же предпочли бы формат кофейни как собственного бизнеса?" value="Кофейня - личный бизнес. Буду вкладываться в нее с душой.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Кофейня - личный бизнес. Буду вкладываться в нее с душой.</span>
+						</label>
+					</div>
+				</div>
+
+				<div class="quiz__item swiper-slide">
+					<div class="quiz__title">
+						Рассматриваете ли Вы вариант открытия кофейни по франшизе?
+					</div>
+					<div class="quiz__box">
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Рассматриваете ли Вы вариант открытия кофейни по франшизе?" checked value="Да">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Да</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Рассматриваете ли Вы вариант открытия кофейни по франшизе?" value="Нет, не рассматриваю.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Нет, не рассматриваю.</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Рассматриваете ли Вы вариант открытия кофейни по франшизе?" value="Пока не определился.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Пока не определился.</span>
+						</label>
+					</div>
+				</div>
+
+				<div class="quiz__item swiper-slide">
+					<div class="quiz__title">
+						Какую сумму Вы планируете потратить на открытие кофейни по франшизе?
+					</div>
+					<div class="quiz__box">
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Какую сумму Вы планируете потратить на открытие кофейни по франшизе?" checked value="Не более 700 000 рублей">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Не более 700 000 рублей</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Какую сумму Вы планируете потратить на открытие кофейни по франшизе?" value="От 700 000 до 1 500 000 рублей">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">От 700 000 до 1 500 000 рублей</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Какую сумму Вы планируете потратить на открытие кофейни по франшизе?" value="Свыше 1,5 миллионов рублей">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Свыше 1,5 миллионов рублей</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Какую сумму Вы планируете потратить на открытие кофейни по франшизе?" value="Свой вариант">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Свой вариант</span>
+						</label>
+					</div>
+				</div>
+
+				<div class="quiz__item swiper-slide">
+					<div class="quiz__title">
+						Знакомы ли Вам такие понятия, как экстракция, латте-арт, робуста, каппинг, TDS?
+					</div>
+					<div class="quiz__box">
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Знакомы ли Вам такие понятия, как экстракция, латте-арт, робуста, каппинг, TDS?" checked value="Не знакомы.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Не знакомы.</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Знакомы ли Вам такие понятия, как экстракция, латте-арт, робуста, каппинг, TDS?" value="Знакомы некоторые.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Знакомы некоторые.</span>
+						</label>
+						<label class="quiz__label tm-radio">
+							<input type="radio" class="quiz__radio tm-radio__input" name="Знакомы ли Вам такие понятия, как экстракция, латте-арт, робуста, каппинг, TDS?" value="Знакомы все.">
+							<span class="tm-radio__box"></span>
+							<span class="tm-radio__text quiz__text">Знакомы все.</span>
+						</label>
+					</div>
+				</div>
+			</div>
+
+			<div class="quiz__nav">
+				<button class="btn btn--transparent quiz__btn quiz__btn--prev" disabled>Назад</button>
+				<button class="btn btn--transparent quiz__btn quiz__btn--next">Далее</button>
+			</div>
+		</div>
+
+		<div class="quiz__form form">
+			<div class="quiz__form-title">Заполните форму для получения результатов теста</div>
+			<label class="tm-field form__label">
+				<input type="text" class="tm-field__input form__field v-req" placeholder="Имя" required>
+			</label>
+			<label class="tm-field form__label">
+				<input type="email" class="tm-field__input form__field v-req _email" placeholder="Kfgjiu@kjh.mail.ru" required>
+			</label>
+			<label class="tm-field tm-phone form__label">
+				<span class="tm-phone__left">Телефон</span>
+				<input type="tel" class="tm-field__input tm-phone__input form__field js-phone-mask v-req" required>
+			</label>
+			<label class="tm-field form__label">
+				<input type="text" class="tm-field__input form__field v-req" placeholder="Введите незвание города" required>
+			</label>
+			<button class="btn btn--transparent quiz__form-btn" type="submit">Получить результаты</button>
+
+			<label class="tm-checkbox-2 form__processing quiz__form-processing">
+				<input class="tm-checkbox-2__input" type="checkbox" required>
+				<span class="tm-checkbox-2__box"></span>
+				<span class="form__processing-text"><a href="#">С политикой конфиженциальности</a> ознакомлен(а)</span>
+			</label>
+		</div>
+	</form>
+</div>
+	<div class="section-modal" id="team-modal" data-simplebar>
+	<button class="section-modal__close js-close">
+		<span class="vissually-hidden">Закрыть модальное окно</span>
+		<svg>
+			<use xlink:href="img/svg/sprite1.svg#close-icon" />
+		</svg>
+	</button>
+	<div class="section-modal__inner">
+		<div class="section-modal__image">
+			<img class="section-modal__img" src="img/franschise/section-modal.jpg" alt="">
+		</div>
+		<div class="section-modal__box">
+			<div class="section-modal__heading">
+				<div class="section-modal__title">
+					Анатолиний Анатольевский
+				</div>
+				<div class="section-modal__subtitle">Какая то должность</div>
+			</div>
+			<div class="section-modal__text" data-simplebar>
+				<div class="section-modal__text-inner">
+					<p>
+						Открывая кофейню с нуля, вы получаете уникальную возможность прочувствовать все несовершенство бюрократической машины, выслушать мнение гостей о навыках новых подчиненных в литературных (и не очень) оборотах и, конечно же, узнать о партнерах, поставщиках и о себе много нового. Покупая франшизу, вы лишаетесь этой гаммы переживаний и получаете заведомо рабочую бизнес-модель, протестированную точку, полностью интегрированное (под имеющиеся место) рабочее пространство, компетентный персонал и надежное плечо своего франчайзера.
+
+						Открывая кофейню с нуля, вы получаете уникальную возможность прочувствовать все несовершенство бюрократической машины, выслушать мнение гостей о навыках новых подчиненных в литературных (и не очень) оборотах и, конечно же, узнать о партнерах, поставщиках и о себе много нового. Покупая франшизу, вы лишаетесь этой гаммы переживаний и получаете заведомо рабочую бизнес-модель, протестированную точку, полностью интегрированное (под имеющиеся место) рабочее пространство, компетентный персонал и надежное плечо своего франчайзера.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<div class="modal-form" id="modal1" data-simplebar>
+	<button class="modal-form__close js-close">
+		<svg width="40" height="40" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M42.4268 14.1406L14.1425 42.4249" stroke="#343779" stroke-width="5" />
+			<path d="M14.1416 14.1406L42.4259 42.4249" stroke="#343779" stroke-width="5" />
+		</svg>
+	</button>
+	<form action="resources/mailer.php" class="form modal-form__inner js-form-send" method="POST">
+		<div class="form__title">
+			В каком городе вы планируете <br>
+			открыть кофейню?
+		</div>
+
+		<label class="tm-field form__label">
+			<input type="text" class="tm-field__input form__field" name="Город" placeholder="Введите незвание города" required>
+		</label>
+		<label class="tm-field form__label">
+			<input type="tel" class="tm-field__input form__field" name="Телефон" placeholder="Ваш телефон" required>
+		</label>
+		<label class="tm-field form__label">
+			<input type="email" class="tm-field__input form__field" name="E-mail" placeholder="Ваш E-mail" required>
+		</label>
+
+		<label class="tm-checkbox form__processing">
+			<input class="tm-checkbox__input" type="checkbox" required>
+			<span class="tm-checkbox__box form__checkbox"></span>
+			<span class="form__processing-text">Соглащение на <a href="#">Обработка персональных данных</a></span>
+		</label>
+
+		<button class="btn form__btn" type="submit">
+			<span class="btn__bg">
+				<span class="btn__wave"></span>
+			</span>
+			<span class="btn__text">Отправить</span>
+		</button>
+	</form>
+</div>
+
+	<div class="overlay"></div>
+
+	<script src="js/swiper.js"></script>
+	<script src="js/inputmask.min.js"></script>
+	<script src="js/global.js"></script>
+	<script src="js/modal.js"></script>
+	<script src="js/quiz.js"></script>
+	<script src="js/team-slider.js"></script>
+	<script src="js/education-slider.js"></script>
+	<script src="js/franchise.js"></script>
+
+</body>
+</html>

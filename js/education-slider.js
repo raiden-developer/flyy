@@ -1,0 +1,1 @@
+"use strict";new Swiper(".education-center__slider",{slidesPerView:"auto",spaceBetween:5,navigation:{nextEl:".education-center__nav--next",prevEl:".education-center__nav--prev"},scrollbar:{el:".swiper-scrollbar",draggable:!0,dragSize:"120"},pagination:{el:".swiper-pagination",type:"fraction"},breakpoints:{768:{spaceBetween:32},480:{spaceBetween:16}}});

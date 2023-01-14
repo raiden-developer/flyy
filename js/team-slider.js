@@ -1,0 +1,1 @@
+"use strict";var mobileSlider=function(e,t,i){var n,o,d=document.querySelector(e),r=(document.body.clientWidth,function(){document.body.clientWidth<=t?(n&&n.destroy(),(n=new Swiper(d,i)).init()):n&&n.destroy()});window.addEventListener("resize",function(){clearTimeout(o),o=setTimeout(function(){r()},75)}),window.addEventListener("load",r)};

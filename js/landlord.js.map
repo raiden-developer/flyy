@@ -1,0 +1,1 @@
+{"version":3,"sources":["landlord.js"],"names":["document","addEventListener","bindModal"],"mappings":";;AAAAA,QAAQ,CAACC,gBAAT,CAA0B,kBAA1B,EAA8C,YAAM;AACnDC,EAAAA,SAAS,CAAC,eAAD,EAAkB,IAAlB,CAAT;AACA,CAFD","sourcesContent":["document.addEventListener('DOMContentLoaded', () => {\r\n\tbindModal('.js-pupup-btn', true)\r\n})"],"file":"landlord.js"}
